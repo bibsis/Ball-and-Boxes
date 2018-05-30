@@ -32,7 +32,7 @@ public class Box extends BallContainer {
 	
 	public boolean addAll(Collection<Ball> b) {
 			
-			for(Ball b1 : balls)
+			for(Ball b1 : b)
 			{
 				if(b1.getVolume() + getVolume() <= getCapacity())
 				{
